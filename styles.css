@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "remixicon";
+  src: url('remixicon.eot?t=1708865856766'); /* IE9*/
+  src: url('remixicon.eot?t=1708865856766#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("remixicon.woff2?t=1708865856766") format("woff2"),
+  url("remixicon.woff?t=1708865856766") format("woff"),
+  url('remixicon.ttf?t=1708865856766') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('remixicon.svg?t=1708865856766#remixicon') format('svg'); /* iOS 4.1- */
+  font-display: swap;
+}
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    overflow-x: hidden;
+    overflow-y: auto;
+ }
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+ }
+
+ header .container{
+    max-width: 79rem;
+    margin: 25px auto; 
+    position: relative;
+    display: flex;
+    padding: 0 3rem;
+    justify-content: space-between;
+ }
+
+ .logo{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .container img{
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+    padding-right: 10px;
+ }
+
+ .logo h1, img{
+    color: white;
+    cursor: pointer;
+ }
+
+
+ .links ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+ }
+
+ .links a{
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   margin: 15px;
+   font-size: 20px;
+   transition: color 0.6s ease;
+ }
+
+ .links a:hover{
+   color: #ff3232;
+ }
+
+ .pic{
+   margin: 30px;
+   float: right;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
